@@ -1,2 +1,2 @@
 #!/bin/bash
-chown :school hello
+for item in *; do sudo chown vincent:staff "$item" done
