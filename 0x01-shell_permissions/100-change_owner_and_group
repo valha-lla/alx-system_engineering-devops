@@ -1,2 +1,2 @@
 #!/bin/bash
-for item in * do sudo chown vincent:staff "$item"
+chown vincent:staff .
